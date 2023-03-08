@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <h1 align="center">Login in to Schoology</h1>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/36ad6ee74f.css" crossorigin="anonymous">
     </head>
     <body>
-        <form align="center" action="process.php" method="_GET">
-            <input type="password" required>
-            <input type="submit" name="pwd">
+        <div class="login">
+            <h1>Log In</h1>
+        <form action="authenticate.php" method="POST">
+            <label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
         </form>
+        </div>
     </body>
 </html>
