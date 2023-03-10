@@ -1,9 +1,8 @@
 .glitch-body {
   background: Black;
   min-height: 100vh;
-  display: grid;
   color: White;
-  font-family: sans-serif;
+  font-family: serif;
 }
 .glitch-main {
   font-size: 2rem;
