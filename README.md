@@ -10,8 +10,8 @@ Future Updates:
 
 Update Log:
 
-v1.93-v1.99: Soundboard changed 
-v1.92: Added more sounds
-v1.91: Some styling
-v1:1-v1.9: Added games and soundboard
+v1.93-v1.99: Soundboard changed <br>
+v1.92: Added more sounds<br>
+v1.91: Some styling<br>
+v1:1-v1.9: Added games and soundboard<br>
 v1: Created
