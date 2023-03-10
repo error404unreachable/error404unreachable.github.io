@@ -19,9 +19,6 @@ on:
 on: 
   pull_request:
     branches: [ "main" ]
-    
-on:
-  workflow_dispatch:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
