@@ -31,11 +31,6 @@ jobs:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
     environment: production
-    
-jobs:
-  my_job:
-    name: deploy to staging
-    runs-on: ubuntu-latest
 
     permissions:
       contents: 'read'
