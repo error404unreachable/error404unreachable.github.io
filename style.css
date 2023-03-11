@@ -2,7 +2,7 @@
   background: Black;
   min-height: 100vh;
   color: White;
-  font-family: serif;
+  font-family: sans-serif;
 }
 .glitch-main {
   font-size: 2rem;
@@ -15,6 +15,26 @@
     0.025em 0.05em 0 rgba(0,0,255.75);
   
   animation: glitch-main 500ms infinite;
+}
+
+.glitch  span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch span:first-child {
+  animation: glitch-main 650ms infinite;
+  clip-path; polygon(0 0, 100% 0, 100% 45%, 0 45%)
+  transform: translate(-0.125em, -0.025em)
+    opacity: .8;
+}
+
+.glitch span:last-child {
+  animation: glitch-main 375ms infinite;
+  clip-path; polygon(0 60%, 100% 60%, 100% 100%, 0 100%)
+  transform: translate(0.125em, 0.025em)
+    opacity: .8;
 }
 
 @keyframes glitch-main {
