@@ -6,11 +6,8 @@ html {background-color: Black;}
         font-family: 'Montserrat', sans-serif;
       }
 
-      .glitch-link {background-color: Black;
-            color: White;
-            border-radius: 75% !important;}
 
-      #glitch-title {
+      #glitch {
         height: 100vh;
         width: 100%;
         margin: 0;
@@ -24,17 +21,17 @@ html {background-color: Black;}
         background-position: center;
         z-index: 1;
       }
-      #wrapper-title {
+      #wrapper {
         text-align: center;
       }
-      .glitch-title, .glitch-link {
+      .glitch {
         position: relative;
         color: white;
         font-size: 4em;
         letter-spacing: .4em;
         animation: glitch-skew 0.5s infinite linear alternate-reverse;
       }
-      .glitch-title, .glitch-link::after {
+      .glitch::after {
         content: attr(data-text);
         position: absolute;
         top: 0;
