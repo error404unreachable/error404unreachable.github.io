@@ -1,6 +1,6 @@
 html {background-color: Black;}
-.link {text-decoration: none;
-     color: White;
+.link {text-decoration: none !important;
+     color: White !important;
       font-size: 1em !important;}
 
      body, h1 {
