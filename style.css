@@ -1,6 +1,7 @@
 html {background-color: Black;}
-.link {underline: none;
-     color: White;}
+.link {text-decoration: none;
+     color: White;
+      font-size: 1em !important;}
 
      body, h1 {
         padding: 0;
