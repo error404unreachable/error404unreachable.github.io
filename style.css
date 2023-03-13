@@ -1,4 +1,6 @@
 html {background-color: Black;}
+.link {underline: none;
+     color: White;}
 
      body, h1 {
         padding: 0;
