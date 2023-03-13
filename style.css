@@ -27,14 +27,14 @@ html {background-color: Black;}
       #wrapper-title {
         text-align: center;
       }
-      .glitch-title, glitch-link {
+      .glitch-title, .glitch-link {
         position: relative;
         color: white;
         font-size: 4em;
         letter-spacing: .4em;
         animation: glitch-skew 0.5s infinite linear alternate-reverse;
       }
-      .glitch-title, glitch-link::after {
+      .glitch-title, .glitch-link::after {
         content: attr(data-text);
         position: absolute;
         top: 0;
