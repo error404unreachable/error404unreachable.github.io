@@ -1,10 +1,9 @@
 html {background-color: Black;}
-.home-button {font-size: 12px;
+.home-button {font-size: 24px;
      color: White;
 background-color: Black;
 border-radius: 25%;
-padding: 12px;
-border: 10px solid Black;}
+padding: 12px;}
 
      body, h1 {
         padding: 0;
