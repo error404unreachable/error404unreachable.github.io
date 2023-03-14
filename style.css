@@ -1,7 +1,9 @@
 html {background-color: Black;}
-.link {text-decoration: none !important;
-     color: White !important;
-      font-size: 1em !important;}
+.home-button {font-size: 36px;
+     color: White;
+background-color: Black;
+border-radius: 25%;
+padding: 12px;}
 
      body, h1 {
         padding: 0;
