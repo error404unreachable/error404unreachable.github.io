@@ -10,6 +10,8 @@ padding: 12px;}
         margin: 0;
         font-family: 'Montserrat', sans-serif;
       }
+.bodylogin {
+	background-color: #435165;}
 * {
   	box-sizing: border-box;
   	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
