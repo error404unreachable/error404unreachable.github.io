@@ -5,20 +5,35 @@
 		<title>Login</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<script>
+			  function login(){
+        var user = document.loginform.user_name.value;
+        var pass = document.loginform.pass_word.value;
+  if(user == "" || pass == ""){
+          alert("sorry...Please Enter Username and Passowrd");
+     }else{
+  if((user == "ustut" || user == "USTUT") && pass == "US@123"){
+          document.loginform.submit();
+    }else{
+         alert("Please Enter Correct Credentials");
+  }
+       }
+           }
+		</script>
 	</head>
-	<body class="login-body">
+	<body class="loginbody">
 		<div class="login">
 			<h1>Login</h1>
-			<form action="authenticate.php" method="post">
+			<form action="title.html" name="loginform">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
-				<input type="text" name="username" placeholder="Username" id="username" required>
+				<input type="text" name="username" placeholder="Username" name="user_name" required>
 				<label for="password">
 					<i class="fas fa-lock"></i>
 				</label>
-				<input type="password" name="password" placeholder="Password" id="password" required>
-				<input type="submit" value="Login">
+				<input type="password" name="password" placeholder="Password" name="pass_word" required>
+				<input type="submit" value="Login" onclick="login()">
 			</form>
 		</div>
 	</body>
