@@ -8,9 +8,9 @@ Future Updates:
 3. PHP authentication system
 4. Every time updates change by an integer (ex. 1-to-2) site remodels
 
-Update Log:
-v2.1-v2.2: Added Roblox (2 servers)
-v2: Remodel!
+Update Log:<br>
+v2.1-v2.2: Added Roblox (2 servers) <br>
+v2: Remodel!<br>
 v1.93-v1.99: Soundboard changed <br>
 v1.92: Added more sounds<br>
 v1.91: Some styling<br>
