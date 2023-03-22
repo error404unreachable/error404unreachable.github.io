@@ -17,9 +17,8 @@ padding: 12px;}
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
-.loginbody {
-  	background-color: #435165;
-}
+
+
 .login {
   	width: 400px;
   	background-color: #ffffff;
