@@ -1,3 +1,5 @@
+currentTime()
+
 function currentTime() {
   let date = new Date(); 
   let hh = date.getHours();
