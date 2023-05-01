@@ -1,4 +1,6 @@
-currentTime()
+function startClock() {
+  currentTime()
+}
 
 function currentTime() {
   let date = new Date(); 
