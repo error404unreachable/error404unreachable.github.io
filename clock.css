@@ -7,3 +7,8 @@
   right: 0;
   padding: 2em;
 }
+
+html {
+ background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,0.6181308049535603) 0%, rgba(0,0,0,1) 100%);
+}
