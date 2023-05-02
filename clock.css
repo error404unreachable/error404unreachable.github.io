@@ -1,9 +1,7 @@
-@import url("https://db.onlinewebfonts.com/c/30f7089f509a97d4f8fca10d997ba1aa?family=Oxygene+1");
-
 #clock {
   text-align: center;
   font-size: 50px;
-  font: Oxygene1;
+  font: "Courier", courier-new, monospace;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -13,7 +11,7 @@
 
 html {
   background-image: linear-gradient(45deg, #888888, #000000);
-  height: 99999999999999999999999px;
+  height: 1000000px;
 }
 
 h1 {
