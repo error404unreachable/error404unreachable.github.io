@@ -1,7 +1,11 @@
-@import ('https://www.fontsmarket.com/font-download/bourgeois-light');
+@font-face {
+  font-family: 'bourgeois-light';
+  src: url('https://db.onlinewebfonts.com/c/99ca060c4577f99d9b5e6dbf0fe1971d?family=BourgeoisW00-Light');
+}
+    
 
 #clock {
-  font-family: "bourgeois-light";
+  font-family: 'bourgeois-light';
   color: white;
   margin-left: auto;
   margin-right: auto;
