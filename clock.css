@@ -1,4 +1,8 @@
+@import ('https://www.fontsmarket.com/font-download/bourgeois-light');
+
 #clock {
+  font-family: "bourgeois-light";
+  color: white;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
