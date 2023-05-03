@@ -23,7 +23,7 @@ function currentTime() {
     
    let time = hh + ":" + mm + ":" + ss + " " + session;
 
-  document.getElementById("clock").innerText = time; 
+  document.getElementById("clock", "title").innerText = time; 
   let t = setTimeout(function(){ currentTime() }, 1000);
 }
 currentTime();
