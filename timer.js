@@ -1,8 +1,21 @@
-startTimer() {
-  var m = document.getElementById("input");
-  setTimeout(endTimer(), 'm'*60*1000);
-}
+ var myVar;
+      var timer = document.getElementById("userInput");
+      var countDownSeconds;
+      function startTime(){ 
+        myVar = setInterval(start, 1000);
+        document.getElementById("timer").innerHTML = timer.value;
+        countDownSeconds = timer.value;
+      } 
 
-endTimer() {
-  alert("Your timer is up...");
-}
+      function start(){
+        countDownSeconds--;
+        document.getElementById("timer").innerHTML = countDownSeconds;
+        if (countDownSeconds == -1){
+          stop();
+          document.getElementById("timer").innerHTML = "0";  
+        }
+      }
+
+      function stop(){
+        clearInterval(myVar);
+      }
