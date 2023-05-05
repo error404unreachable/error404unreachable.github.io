@@ -13,6 +13,7 @@
         if (countDownSeconds == -1){
           stop();
           document.getElementById("timer").innerHTML = "0";  
+         alert("Your timer is done...");
         }
       }
 
