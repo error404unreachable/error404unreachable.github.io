@@ -1,11 +1,5 @@
 body {
-  backround-image: linear-gradient(250deg, black 68%, gray 32%);
+  backround: Black;
   color: White;
   text-align: center;
-}
-
-#timer {
-  color: White;
-  font-family: "Courier-New", Courier, monospace;
-  padding: 20 20 20 20;
 }
