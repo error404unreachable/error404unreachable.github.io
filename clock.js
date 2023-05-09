@@ -1,5 +1,8 @@
+let element = document.getElementById("clock");
+
 function startClock() {
   currentTime()
+  element.style.fontSize = "16px";
 }
 
 function currentTime() {
@@ -27,3 +30,10 @@ function currentTime() {
   let t = setTimeout(function(){ currentTime() }, 1000);
 }
 currentTime();
+
+function fullScreen() {
+  let heading = document.getElementById("heading");
+  document.getElementById("heading").innerText = " ";
+  let element = document.getElementById("clock");
+  element.style.fontSize = "50px";
+}
