@@ -28,10 +28,3 @@ function currentTime() {
   let t = setTimeout(function(){ currentTime() }, 1000);
 }
 currentTime();
-
-function fullScreen() {
-  let heading = document.getElementById("heading");
-  document.getElementById("heading").innerText = " ";
-  let element = document.getElementById("clock");
-  element.style.fontSize = "750px";
-}
