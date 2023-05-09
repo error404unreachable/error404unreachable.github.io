@@ -1,8 +1,6 @@
-let element = document.getElementById("clock");
-
 function startClock() {
   currentTime()
-  element.style.fontSize = "100px";
+  document.getElementById("heading").innerText = "Clock 404";
 }
 
 function currentTime() {
@@ -26,7 +24,7 @@ function currentTime() {
     
    let time = hh + ":" + mm + ":" + ss + " " + session;
 
-  document.getElementById("clock", "title").innerText = time; 
+  document.getElementById("clock").innerText = time; 
   let t = setTimeout(function(){ currentTime() }, 1000);
 }
 currentTime();
