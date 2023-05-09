@@ -2,7 +2,7 @@ let element = document.getElementById("clock");
 
 function startClock() {
   currentTime()
-  element.style.fontSize = "16px";
+  element.style.fontSize = "100px";
 }
 
 function currentTime() {
@@ -35,5 +35,5 @@ function fullScreen() {
   let heading = document.getElementById("heading");
   document.getElementById("heading").innerText = " ";
   let element = document.getElementById("clock");
-  element.style.fontSize = "50px";
+  element.style.fontSize = "750px";
 }
