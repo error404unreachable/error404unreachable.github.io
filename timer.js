@@ -3,16 +3,16 @@
       var countDownSeconds;
       function startTime(){ 
         myVar = setInterval(start, 1000);
-        getTime();
+        document.getElementById("timer").innerHTML = timer.value;
+        countDownSeconds = timer.value;
       } 
 
       function start(){
         countDownSeconds--;
-        document.getElementById("timer").innerHTML = time;
-        setTime();
+        document.getElementById("timer").innerHTML = countDownSeconds;
         if (countDownSeconds == -1){
           stop();
-          document.getElementById("timer").innerHTML = 00:00:00;  
+          document.getElementById("timer").innerHTML = "0";  
          alert("Your timer is done...");
         }
       }
@@ -20,13 +20,3 @@
       function stop(){
         clearInterval(myVar);
       }
-
-function getTime() {
- let hh = timer.getHours();
-  let mm = timer.getMinutes();
-  let ss = timer.getSeconds();
-}
-
-function setTime() {
- let time = hh + ":" + mm + ":" + ss;
-}
