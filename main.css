@@ -219,7 +219,7 @@
         
     }
 
-.clock {
-  border: 1.5px solid #696969;
-  border-radius: 25px;
+a.img {
+    border: 1px solid black;
+    border-radius: 25px;
 }
