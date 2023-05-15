@@ -218,7 +218,11 @@
 }
         
     }
-
 img {
-    border-radius: 30%;
+border: double 2px transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(black, black), 
+                    linear-gradient(to right, pink, white);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
