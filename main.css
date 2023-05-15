@@ -219,7 +219,6 @@
         
     }
 
-img.img {
-    border: 1px solid black;
-    border-radius: 25px;
+img {
+    border-radius: 30%;
 }
