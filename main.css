@@ -1,15 +1,16 @@
-  #gd {
-    font-size: 12px;
-     color: White;
+#gd {
+font-size: 12px;
+color: White;
 background-color: Black;
 border-radius: 25%;
-padding: 12px;  
-border: 1px linear-gradient(260deg, white 10%, pink 5%, #696969 85%);
+padding: 12px;
+background-image: url("IMG_1782.png");
+background-repeat: no-repeat;
 }
 
  html {
      background-color: Black;
-}
+ }
 
 .glitch-wrapper {
    width: 100%;
