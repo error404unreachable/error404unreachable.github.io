@@ -1,12 +1,19 @@
-#gd {
+.buttons {
 font-size: 12px;
 color: White;
 background-color: Black;
 border-radius: 25%;
 padding: 62px;
-background-image: url("IMG_1782.png");
 background-repeat: no-repeat;
 background-size: 125px 125px;
+}
+
+#gd {
+ background-image: url("IMG_1782.png");
+}
+
+#scratch {
+ background-image: url("IMG_1784.png");
 }
 
  html {
