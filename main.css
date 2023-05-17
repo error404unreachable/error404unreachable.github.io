@@ -8,6 +8,30 @@ background-repeat: no-repeat;
 background-size: 125px 125px;
 }
 
+#lemons {
+ background-image: url("");
+}
+
+#minercat {
+ background-image: url("");
+}
+
+#learn {
+ background-image: url("");
+}
+
+#stickman {
+ background-image: url("IMG_1785.png");
+}
+
+#sounds {
+ background-image: url("IMG_1787.png");
+}
+
+#spaceship {
+ background-image: url("IMG_1788.png");
+}
+
 #gd {
  background-image: url("IMG_1782.png");
 }
