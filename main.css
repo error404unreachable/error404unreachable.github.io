@@ -8,16 +8,36 @@ background-repeat: no-repeat;
 background-size: 125px 125px;
 }
 
+#404_ai {
+ background-image: url("IMG_2252.png");
+}
+
+#digcreate {
+ background-image: url("IMG_2252.png");
+}
+
+#timer {
+ background-image: url("IMG_2229.png");
+}
+
+#clock {
+ background-image: url("IMG_2228.png");
+}
+
+#rocket {
+ background-image: url("IMG_1781.png");
+}
+
 #lemons {
- background-image: url("");
+ background-image: url("IMG_1783.png");
 }
 
 #minercat {
- background-image: url("");
+ background-image: url("IMG_1783.png");
 }
 
 #learn {
- background-image: url("");
+ background-image: url("IMG_1786.png");
 }
 
 #stickman {
