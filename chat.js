@@ -1,5 +1,9 @@
+function askName() {
+    var input = prompt("What is your name?");
+}
+
 function setName() {
-    let name = document.getElementById("name");
+    let name = input;
 }
 
 const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
