@@ -1,10 +1,12 @@
+function setName() {
+    let name = document.getElementById("name");
+}
 
 const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
-    name: getRandomName(),
-    color: getRandomColor(),
+    name: name,
   },
 });
 
