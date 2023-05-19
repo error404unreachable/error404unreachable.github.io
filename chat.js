@@ -4,6 +4,7 @@ function askName() {
 
 function setName() {
     let name = input;
+    alert("You're name hasn't been saved... You are know an unknown ęŃtīTÿ...");
 }
 
 const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
