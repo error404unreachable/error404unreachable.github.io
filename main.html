@@ -25,6 +25,10 @@
         <button class="buttons" onclick="timerStart()" id="timer" value=" "></button>
         <button class="buttons" onclick="digcreateStart()" id="digcreate" value=" "></button>
         <button class="buttons" onclick="chatStart()" id="chat" value=" "></button>
+        <a id="conduct" href="CODE_OF_CONDUCT.md">Code of Conduct</a>
+        <a id="contribute" href="CONTRIBUTING.md">Contributing</a>
+        <a id="readme" href="README.md">About</a>
+        <button id="issue" onclick="reportIssue()">Report an Issue</button>
         <script>
             function gdStart() {
                 window.location.href = "levels.html";
@@ -77,6 +81,13 @@
             function chatStart() {
                 /*window.location.href = "chat.html";*/
                 alert("You are not authorized");
+            }
+            
+            function reportIssue() {
+                confirm("Report an issue?");
+                if (confirm == true) {
+                    window.location.href = "https://github.com/error404unreachable/error404unreachable.github.io/issues";
+                }
             }
         </script>
     </body>
