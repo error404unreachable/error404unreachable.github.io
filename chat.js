@@ -1,13 +1,18 @@
 function askName() {
-    var input = prompt("What is your name?");
+    alert("Welcome to Chat Platform");
 }
 
 function setName() {
-    let name = input;
-    alert("You're name hasn't been saved... You are know an unknown ęŃtīTÿ...");
+    let name = confirm("Do you want to chat as an invisible entity?");
+    if (confirm(name) == true) {
+        alert("Succesfully entered chat room.");
+    }
+    else {
+        window.location.href = "main.html";
+    }
 }
 
-const CLIENT_ID = 'hWmT5ZuGe51IgiMd';
+const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
