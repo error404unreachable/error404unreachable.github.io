@@ -7,7 +7,7 @@ function setName() {
     alert("You're name hasn't been saved... You are know an unknown ęŃtīTÿ...");
 }
 
-const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
+const CLIENT_ID = 'hWmT5ZuGe51IgiMd';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
