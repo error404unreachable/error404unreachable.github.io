@@ -7,6 +7,10 @@ padding: 62px;
 background-size: 125px 125px;
 }
 
+#clicker {
+ background-image: url("IMG_2284.png");
+}
+
 #chat {
  background-image: url("IMG_2252.png");
 }
