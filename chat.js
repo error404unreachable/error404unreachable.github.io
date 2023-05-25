@@ -1,14 +1,14 @@
 function askName() {
-    alert("Welcome to Chat Platform");
+    alert("Welcome to the Chat Platform");
 }
 
 function setName() {
-    let name = confirm("Do you want to chat as an invisible entity?");
-    if (confirm(name) == true) {
+    let name = prompt("What is your name?", "First, Last");
+    if (name != null) {
         alert("Succesfully entered chat room.");
     }
     else {
-        window.location.href = "main.html";
+        setName();
     }
 }
 
