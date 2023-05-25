@@ -1,5 +1,6 @@
 function askName() {
     alert("Welcome to the Chat Platform");
+    setName();
 }
 
 function setName() {
