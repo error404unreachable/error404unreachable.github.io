@@ -13,8 +13,13 @@
         z-index: 999999;
         top: 0;
         color: white;
+        display: block;
       }
 
+      #notification-banner:hover {
+        display: none;
+      }
+      
       #text {
         text-align: center;
         color: white;
@@ -25,7 +30,7 @@
       <p id="text"> </p>
     </div>
   </head>
-  <body>
+  <body onload="document.getElementById("text").innerText = "Elipsy Warning, hover over to dismiss";">
 <iframe src="https://scratch.mit.edu/projects/268279290" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999998;"></iframe>
 </body>
 </html>
