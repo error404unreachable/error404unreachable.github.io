@@ -7,6 +7,14 @@ padding: 62px;
 background-size: 125px 125px;
 }
 
+#accurateGd {
+ background-image: url("");
+}
+
+#troll {
+ background-image: url("");
+}
+
 #clicker {
  background-image: url("IMG_2284.png");
 }
