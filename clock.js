@@ -1,6 +1,6 @@
 function startClock() {
   currentTime()
-  document.getElementById("heading").innerText = "Clock 404";
+  document.getElementById("heading").innerText = "404";
 }
 
 function currentTime() {
