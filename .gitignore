@@ -1,0 +1,1 @@
+find . -size +100mb | cat >> .gitignore
