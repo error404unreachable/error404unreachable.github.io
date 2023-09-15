@@ -7,6 +7,10 @@ padding: 62px;
 background-size: 125px 125px;
 }
 
+#music {
+ background-image: url("IMG_2402.jpeg");
+}
+
 #accurateGd {
  background-image: url("IMG_1782.png");
 }
