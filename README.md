@@ -9,8 +9,9 @@ Future Updates:
 4. Every time updates change by an integer (ex. 1-to-2) site remodels
 
 Update Log:<br>
-v2.4: New style of icons! (big success!)<br>
-v2.3: Working on styling icons<br>
+v2.8: Added Soundwave<br>
+v2.5: Removed Blumgi Rocket<br>
+v2.4: New style of icons<br>
 v2.2: More games including: Paper MC, Blumgi Rocket, scratch games<br>
 v2: New Style<br>
 v1.93-v1.99: Soundboard changed <br>
