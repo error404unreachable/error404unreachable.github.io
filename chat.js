@@ -1,5 +1,5 @@
-
-const CLIENT_ID = 'EkJ1dbW6DByLFOqn';
+EkJ1dbW6DByLFOqn
+const CLIENT_ID = prompt("Enter code:");
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
