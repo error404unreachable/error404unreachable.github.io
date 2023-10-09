@@ -1,7 +1,9 @@
 EkJ1dbW6DByLFOqn
-const CLIENT_ID;
+function pageStart() {
+   const CLIENT_ID = prompt("Enter room code:");
+}
 
-const drone = new ScaleDrone(prompt("Enter your room code:"); {
+const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
     name: getRandomName(),
     color: getRandomColor(),
