@@ -2,6 +2,7 @@
 <html class="glitch-main" lang="en">
     <head>
         <title>Error 404 Not Found!</title>
+        <!--Glitchy title-->
         <div class="glitch-wrapper">
    <div class="glitch" data-glitch="ERROR 404">ERROR 404</div>
         </div>
@@ -36,6 +37,10 @@ function myFunction() {
 }</script>-->
     </head>
     <body>
+        <!--Background for covering offline project-->
+        <div id="bg" style="z-index: 1; height: 100vh; width: 100vw; background-color: blue; position: absolute;"></div>
+        <iframe src="scratch.mit.edu" id="offlineIframe" style="z-index: 0; position: absolute; height: 100vh; width: 100vw;"></iframe>
+        <!--Button links-->
         <button class="buttons" onclick="gdStart()" id="gd" value=" "></button>
         <button class="buttons" onclick="scratchGames()" id="scratch" value=" "></button>
         <button class="buttons" onclick="spaceshipStart()" id="spaceship" value=" "></button> 
@@ -56,6 +61,7 @@ function myFunction() {
         <a id="contribute" href="CONTRIBUTING.md">Contributing</a>
         <a id="readme" href="README.md">About</a>
         <button id="issue" onclick="reportIssue()">Report an Issue</button>
+        <!--Scripts activated by button links-->
         <script>
             function gdStart() {
                 window.location.href = "levels.html";
