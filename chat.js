@@ -1,4 +1,7 @@
-const CLIENT_ID = 'EkJ1dbW6DByLFOqn';
+function pageLoad() {
+const CLIENT_ID = prompt("Enter room code...");
+}
+// const CLIENT_ID = 'EkJ1dbW6DByLFOqn';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
