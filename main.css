@@ -5,71 +5,86 @@ background-color: Black;
 border-radius: 25%;
 padding: 62px;
 background-size: 125px 125px;
-z-index: 2;
 }
 
 #music {
  background-image: url("IMG_2402.jpeg");
+ z-index: 2;
 }
 
 #accurateGd {
  background-image: url("IMG_1782.png");
+ z-index: 2;
 }
 
 #troll {
  background-image: url("IMG_2348.jpeg");
+ z-index: 2;
 }
 
 #clicker {
  background-image: url("IMG_2284.png");
+ z-index: 2;
 }
 
 #chat {
  background-image: url("IMG_2252.png");
+ z-index: 2;
 }
 
 #digcreate {
  background-image: url("IMG_2252.png");
+ z-index: 2;
 }
 
 #timer {
  background-image: url("IMG_2229.png");
+ z-index: 2;
 }
 
 #clock {
  background-image: url("IMG_2228.png");
+ z-index: 2;
 }
 
 #lemons {
  background-image: url("IMG_1783.png");
+ z-index: 2;
 }
 
 #minercat {
  background-image: url("IMG_1783.png");
+ z-index: 2;
 }
 
 #learn {
  background-image: url("IMG_1786.png");
+ z-index: 2;
 }
 
 #stickman {
  background-image: url("IMG_1785.png");
+ z-index: 2;
 }
 
 #sounds {
  background-image: url("IMG_1787.png");
+ z-index: 2;
 }
 
 #spaceship {
  background-image: url("IMG_1788.png");
+ z-index: 2;
 }
 
 #gd {
  background-image: url("IMG_2347.jpeg");
+ z-index: 2;
 }
 
 #scratch {
  background-image: url("IMG_1784.png");
+ z-index: 2;
 }
 
  html {
