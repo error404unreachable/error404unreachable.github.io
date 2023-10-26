@@ -1,4 +1,5 @@
  var myVar;
+ let sound = document.getElementById('audio');
       var timer = document.getElementById("userInput");
       var countDownSeconds;
       function startTime(){ 
@@ -13,6 +14,7 @@
         if (countDownSeconds == -1){
           stop();
           document.getElementById("timer").innerHTML = "0";  
+         playAudio();
          alert("Your timer is done...");
         }
       }
@@ -20,3 +22,7 @@
       function stop(){
         clearInterval(myVar);
       }
+
+function playAudio() { 
+  sound.play(); 
+} 
