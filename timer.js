@@ -1,11 +1,15 @@
  var myVar;
- var sound = document.getElementById('audio');
+ const sound = new Audio("Alarm.wav");
       var timer = document.getElementById("userInput");
       var countDownSeconds;
+
       function startTime(){ 
         myVar = setInterval(start, 1000);
         document.getElementById("timer").innerHTML = timer.value;
         countDownSeconds = timer.value;
+       sound.play().then(() => { // pause directly
+    sound.pause();
+  });
       } 
 
       function start(){
