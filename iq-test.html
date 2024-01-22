@@ -1,0 +1,30 @@
+<button type="button" onclick="askName()">Start test</button>
+<script>
+  var iq = 0;
+  function askName() {
+    let name = prompt("Name:");
+    let q1 = prompt("25x5");
+    let q2 = prompt("Are you a nerd?");
+    let q3 = prompt("Race/ethnicity...");
+    if (name == "Brayden") {
+      alert("Quiz failed... \n Not enough brain cells...");
+    } else {
+      iq += 25;
+    }
+    if (q1 == 125) {
+      iq += 10;
+    } else {
+      iq -= 10;
+    }
+    if (q2 == "yes") {
+      iq += 15;
+    } else {
+      iq += 5;
+    }
+    if (q3 == "asian") {
+      iq += 75;
+    } else {
+      iq += 5;
+    }
+  }
+</script>
