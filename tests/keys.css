@@ -1,3 +1,11 @@
 html {
   background-color: black;
 }
+
+#key1, #key5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100;
+  bottom: 100;
+}
