@@ -13,10 +13,10 @@
     <div id="key6"><img src="Red key.png"></div>
     <div id="key7"><img src="Red key.png"></div>
     <div id="key8"><img src="Red key.png"></div>
-    <canvas></canvas>
+    <canvas id="canvas"></canvas>
     <script>
       window.onload = function() {
-        const canvas = document.getElementById("myCanvas");
+        const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
   const img = document.getElementById("key1");
   ctx.drawImage(img, 10, 10);
