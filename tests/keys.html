@@ -4,14 +4,13 @@
     <title>Key animation - [Test]</title>
     <link rel="stylesheet" href="keys.css" type="text/css">
   </head>
-  <body>
+  <body onload="context.drawImage(image, 10, 10);">
     <img id="key" src="Red.png">
     <canvas id="canvas"></canvas>
     <script>
         const canvas = document.getElementById("canvas");
         const context = canvas.getContext("2d");
         const image = document.getElementById("key1");
-        context.drawImage(image, 10, 10);
     </script>
   </body>
 </html>
