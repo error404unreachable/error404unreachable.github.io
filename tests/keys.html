@@ -5,22 +5,13 @@
     <link rel="stylesheet" href="keys.css" type="text/css">
   </head>
   <body>
-    <div id="key1"><img src="Red key.png"></div>
-    <div id="key2"><img src="Red key.png"></div>
-    <div id="key3"><img src="Red key.png"></div>
-    <div id="key4"><img src="Red key.png"></div>
-    <div id="key5"><img src="Red key.png"></div>
-    <div id="key6"><img src="Red key.png"></div>
-    <div id="key7"><img src="Red key.png"></div>
-    <div id="key8"><img src="Red key.png"></div>
+    <img id="key" src="Red key.png">
     <canvas id="canvas"></canvas>
     <script>
-      window.onload = function() {
         const canvas = document.getElementById("canvas");
-  const ctx = canvas.getContext("2d");
-  const img = document.getElementById("key1");
-  ctx.drawImage(img, 10, 10);
-      }
+        const context = canvas.getContext("2d");
+        const image = document.getElementById("key1");
+        context.drawImage(image, 10, 10);
     </script>
   </body>
 </html>
