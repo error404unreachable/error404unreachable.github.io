@@ -5,8 +5,7 @@
       function startTime(){ 
         myVar = setInterval(start, 1000);
         document.getElementById("timer").innerHTML = timer.value;
-        countDownSeconds = timer.value
-       alert("Your timer is done...");
+        countDownSeconds = timer.value;
   });
       } 
 
@@ -16,6 +15,7 @@
         if (countDownSeconds == -1){
           stop();
           document.getElementById("timer").innerHTML = "0";
+         alert("Your timer is done...");
         }
       }
 
