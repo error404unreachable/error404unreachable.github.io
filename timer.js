@@ -1,20 +1,17 @@
- var myVar;
-      var timer = document.getElementById("userInput");
-      var countDownSeconds;
+var myVar = setInterval(start, 1000);
+      var timer = document.getElementbyId("userInput").value;
 
       function startTime(){ 
-        myVar = setInterval(start, 1000);
         document.getElementById("timer").innerHTML = timer.value;
-        countDownSeconds = timer.value;
-  });
+        myVar;
       } 
 
       function start(){
-        countDownSeconds--;
-        document.getElementById("timer").innerHTML = countDownSeconds;
-        if (countDownSeconds == -1){
+        document.getElementById("timer").innerHTML = timer.value;
+        timer.value--;
+        if (timer == -1){
           stop();
-          document.getElementById("timer").innerHTML = "0";
+          document.getElementById("timerr").innerHTML = "0";  
          alert("Your timer is done...");
         }
       }
