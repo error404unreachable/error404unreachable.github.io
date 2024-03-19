@@ -11,6 +11,7 @@ margin: 10px 2.5px;
 #appel {
  backgrpund-image: url("golden_apple.gif");
  z-index: 2;
+ display: block;
 }
 
 #music {
