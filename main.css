@@ -8,6 +8,11 @@ background-size: 125px 125px;
 margin: 10px 2.5px;
 }
 
+#appel {
+ backgrpund-image: url("apple.gif");
+ z-index: 2;
+}
+
 #music {
  background-image: url("IMG_2402.jpeg");
  z-index: 2;
