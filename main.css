@@ -9,6 +9,7 @@ margin: 10px 2.5px;
 }
 
 #appel {
+ display: block;
  background-image: url("golden_apple.gif");
  z-index: 2;
 }
