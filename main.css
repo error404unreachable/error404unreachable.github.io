@@ -12,6 +12,8 @@ margin: 10px 2.5px;
  backgrpund-image: url("golden_apple.gif");
  z-index: 2;
  display: block;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #music {
