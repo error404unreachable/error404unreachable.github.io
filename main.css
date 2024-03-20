@@ -6,9 +6,10 @@ border-radius: 25%;
 padding: 62px;
 background-size: 125px 125px;
 margin: 10px 2.5px;
+background-repeat: no-repeat;
 }
 
-#appel {
+#apple {
  display: block;
  background-image: url("golden_apple.gif");
  z-index: 2;
