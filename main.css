@@ -11,7 +11,12 @@ background-repeat: no-repeat;
 
 #apple {
  display: block;
- background-image: url("https://images.app.goo.gl/cNvqQ65E8WrNF4av8");
+ color: White;
+ background-color: black;
+ border-radius: 25%;
+ padding: 62px;
+ background-size: 125px 125px;
+ background-image: url("./golden_apple.gif");
  z-index: 2;
 }
 
