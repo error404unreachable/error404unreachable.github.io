@@ -8,11 +8,16 @@ padding: 64px;
 background-repeat: no-repeat;
 }
 
+button:hover {
+ background-size: 200px 200px;
+}
+
 #apple {
  display: block;
  color: White;
  background-color: black;
  border-radius: 25%;
+ padding: 64px;
  background-size: 125px 125px;
  background-image: url("./golden_apple.gif");
  z-index: 2;
