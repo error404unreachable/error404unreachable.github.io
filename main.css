@@ -3,10 +3,16 @@ font-size: 12px;
 color: White;
 background-color: Black;
 border-radius: 25%;
-padding: 62px;
+padding: 25%;
 background-size: 125px 125px;
-margin: 10px 2.5px;
+margin: 25%;
 background-repeat: no-repeat;
+}
+
+button:hover {
+ margin: 50%;
+ padding: 50%;
+ background-size: 200px 200px;
 }
 
 #apple {
@@ -14,7 +20,8 @@ background-repeat: no-repeat;
  color: White;
  background-color: black;
  border-radius: 25%;
- padding: 62px;
+ padding: 25%;
+ margin: 25%;
  background-size: 125px 125px;
  background-image: url("./golden_apple.gif");
  z-index: 2;
