@@ -4,11 +4,8 @@ color: White;
 background-color: Black;
 border-radius: 25%;
 background-size: 125px 125px;
+padding: 64px;
 background-repeat: no-repeat;
-}
-
-button:hover {
- background-size: 200px 200px;
 }
 
 #apple {
