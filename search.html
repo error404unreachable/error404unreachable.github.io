@@ -13,7 +13,7 @@
 <input class="search" id="test" type="text" name="search" size="10" maxlength="255"/>
     <script type="text/javascript">
 document.getElementById('searchform').onsubmit = function() {
-    window.location = 'http://www.google.com/search?q=site:error404unreachable.github.io/ ' + document.getElementById('test').value;
+    window.location = 'http://www.google.com/search?q=' + document.getElementById('test').value;
     return false;
 }
 </script>
