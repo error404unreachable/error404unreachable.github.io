@@ -9,6 +9,7 @@ Future Updates:
 4. Sometimes site changes styling
 
 Update Log:<br>
+v2.9: Added Appel<br>
 v2.8: Added Soundwave<br>
 v2.5: Removed Blumgi Rocket<br>
 v2.4: New style of icons<br>
