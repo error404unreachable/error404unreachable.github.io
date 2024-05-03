@@ -8,5 +8,14 @@
   <body onload="startClock()">
     <script src="clock.js"></script>
     <p id="clock"></p>
+    <br><br><br><br>
+    <button id="blue" onclick="changeToBlue();">Blue Team</button>
+    <button id="orange" onclick="changeToOrange();">Orange Team</button>
+    <button id="white" onclick="changeToWhite();">White</button>
+    <form id="custom">
+      <label for="input" style="color:white;">Custom Hex Code Color:</label>
+      <input id="input" name="input" type="text" placeholder+"#FF123"/>
+      <input type="submit" value="Submit"/>
+    </form>
   </body>
 </html>
