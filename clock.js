@@ -1,4 +1,5 @@
 var clock = document.getElementById("clock");
+const form = document.querySelector("#custom");
 
 function startClock() {
   currentTime()
@@ -30,6 +31,25 @@ function currentTime() {
   let t = setTimeout(function(){ currentTime() }, 1000);
 }
 currentTime();
+
+async function sendData() {
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch("https://error404unreachable.github.io/clock.html", {
+      method: "POST",
+      body: formData,
+    });
+    console.log(await response.json());
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  sendData();
+});
 
 function changeToBlue() {
   clock.style.textShadow = "0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF";
