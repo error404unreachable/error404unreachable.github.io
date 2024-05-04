@@ -1,3 +1,5 @@
+var clock = document.getElementById("clock");
+
 function startClock() {
   currentTime()
   document.getElementById("heading").innerText = "404";
@@ -28,3 +30,16 @@ function currentTime() {
   let t = setTimeout(function(){ currentTime() }, 1000);
 }
 currentTime();
+
+function changeToBlue() {
+  clock.style.textShadow = "0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF";
+}
+
+function changeToOrange() {
+  clock.style.textShadow = "0 0 10px #ffa500, 0 0 20px #ffc04c, 0 0 30px #ffdb99";
+}
+
+function changeToWhite() {
+  clock.style.textShadow = "0 0 10px #ffffff, 0 0 20px #e5e5e5, 0 0 30px #cccccc";
+}
+
