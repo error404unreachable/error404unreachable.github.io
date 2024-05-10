@@ -40,9 +40,9 @@ async function sendData() {
       method: "POST",
       body: formData,
     });
-    console.log(await response.json());
+    alert(await response.json());
   } catch (e) {
-    console.error(e);
+    alert("Error " + e);
   }
 }
 
