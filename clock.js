@@ -1,5 +1,5 @@
 var clock = document.getElementById("clock");
-const form = document.querySelector("#custom");
+// const form = document.querySelector("#custom");
 
 function startClock() {
   currentTime()
@@ -32,7 +32,7 @@ function currentTime() {
 }
 currentTime();
 
-async function sendData() {
+/* async function sendData() {
   const formData = new FormData(form);
 
   try {
@@ -49,7 +49,7 @@ async function sendData() {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   sendData();
-});
+}); */
 
 function changeToBlue() {
   clock.style.textShadow = "0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF";
