@@ -12,6 +12,18 @@
   text-shadow: 0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF;/* 0 0 40px #e60073;0 0 50px #e60073;*/
 }
 
+#clock:active {
+  position: sticky;
+  top: 0;
+  font-family: 'BourgeoisW00-light';
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 200px;
+  text-shadow: 0 0 10px #ffa500, 0 0 20px #ffc04c, 0 0 30px #ffdb99;/* 0 0 40px #e60073;0 0 50px #e60073;*/
+}
+
 html {
   background-color: black;
   height: 5000px;
