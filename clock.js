@@ -1,4 +1,3 @@
-var clock = document.getElementById("clock");
 // const form = document.querySelector("#custom");
 
 function startClock() {
@@ -52,14 +51,14 @@ form.addEventListener("submit", (event) => {
 }); */
 
 function changeToBlue() {
-  clock.style.textShadow = "0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF";
+  document.getElementById("clock").style.textShadow = "0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF";
 }
 
 function changeToOrange() {
-  clock.style.textShadow = "0 0 10px #ffa500, 0 0 20px #ffc04c, 0 0 30px #ffdb99";
+  document.getElementById("clock").cstyle.textShadow = "0 0 10px #ffa500, 0 0 20px #ffc04c, 0 0 30px #ffdb99";
 }
 
 function changeToWhite() {
-  clock.style.textShadow = "0 0 10px #ffffff, 0 0 20px #e5e5e5, 0 0 30px #cccccc";
+  document.getElementById("clock").style.textShadow = "0 0 10px #ffffff, 0 0 20px #e5e5e5, 0 0 30px #cccccc";
 }
 
