@@ -1,6 +1,6 @@
 @font-face {font-family: "BourgeoisW00-Light"; src: url("//db.onlinewebfonts.com/t/99ca060c4577f99d9b5e6dbf0fe1971d.eot"); src: url("//db.onlinewebfonts.com/t/99ca060c4577f99d9b5e6dbf0fe1971d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/99ca060c4577f99d9b5e6dbf0fe1971d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/99ca060c4577f99d9b5e6dbf0fe1971d.woff") format("woff"), url("//db.onlinewebfonts.com/t/99ca060c4577f99d9b5e6dbf0fe1971d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/99ca060c4577f99d9b5e6dbf0fe1971d.svg#BourgeoisW00-Light") format("svg"); }    
 
-#clock {
+#clock-blue {
   position: sticky;
   top: 0;
   font-family: 'BourgeoisW00-light';
@@ -12,7 +12,7 @@
   text-shadow: 0 0 10px #05D9FF, 0 0 20px #74EAFF, 0 0 30px #E3FAFF;/* 0 0 40px #e60073;0 0 50px #e60073;*/
 }
 
-#clock:active {
+#clock-orange {
   position: sticky;
   top: 0;
   font-family: 'BourgeoisW00-light';
