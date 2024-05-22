@@ -59,7 +59,13 @@ button:hover {
 }
 
 #clock {
- background-image: url("IMG_2228.png");
+ display: block;
+ color: White;
+ background-color: black;
+ border-radius: 25%;
+ padding: 64px;
+ background-size: 125px 125px;
+ background-image: url("./Clock.GIF");
  z-index: 2;
 }
 
