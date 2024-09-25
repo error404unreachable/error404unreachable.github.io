@@ -1,12 +1,12 @@
 var myVar = setInterval(start, 1000);
-      var timer = document.getElementbyId("userInput").value;
+var timer = document.getElementbyId("userInput").value;
 
-      function startTime(){ 
+      function startTime() { 
         document.getElementById("timer").innerHTML = timer.value;
         myVar;
       } 
 
-      function start(){
+      function start() {
         document.getElementById("timer").innerHTML = timer.value;
         timer.value--;
         if (timer == -1){
@@ -16,6 +16,6 @@ var myVar = setInterval(start, 1000);
         }
       }
 
-      function stop(){
+      function stop() {
         clearInterval(myVar);
       }
