@@ -55,7 +55,7 @@ function changeToBlue() {
 }
 
 function changeToOrange() {
-  document.getElementById("clock").cstyle.textShadow = "0 0 10px #ffa500, 0 0 20px #ffc04c, 0 0 30px #ffdb99";
+  document.getElementById("clock").style.textShadow = "0 0 10px #ffa500, 0 0 20px #ffc04c, 0 0 30px #ffdb99";
 }
 
 function changeToWhite() {
