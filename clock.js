@@ -31,6 +31,16 @@ function currentTime() {
 }
 currentTime();
 
+
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.requestFullscreen();
+  } else {
+    document.exitFullscreen?.();
+  }
+}
+
+
 /* async function sendData() {
   const formData = new FormData(form);
 
