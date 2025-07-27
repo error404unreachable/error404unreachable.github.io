@@ -32,7 +32,7 @@ function currentTime() {
 currentTime();
 
 
-function toggleFullScreen() {
+function toggleFullscreen() {
   if (!document.fullscreenElement) {
     document.requestFullscreen();
   } else {
