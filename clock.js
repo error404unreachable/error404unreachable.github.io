@@ -31,15 +31,17 @@ function currentTime() {
 }
 currentTime();
 
+const clock = document.getElementById("clock");
 
 function toggleFullscreen() {
-  if (!document.fullscreenElement) {
-    document.requestFullscreen();
-  } else {
-    document.exitFullscreen?.();
+  if (clock.requestFullscreen) {
+    clock.requestFullscreen();
+  } else if (clock.webkitRequestFullscreen) { /* Safari */
+    clock.webkitRequestFullscreen();
+  } else if (clock.msRequestFullscreen) { /* IE11 */
+    clock.msRequestFullscreen();
   }
 }
-
 
 /* async function sendData() {
   const formData = new FormData(form);
