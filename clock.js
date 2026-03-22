@@ -76,5 +76,5 @@ function changeToWhite() {
 
 function customHex() {
   hex = prompt("Enter Custom Hex Color Code:");
-  document.getElementById("clock").style.textShadow = `0 0 10px ${hex}`;
+  document.getElementById("clock").style.textShadow = `0 0 10px ${hex}, 0 0 20px ${hex}, 0 0 30px #555555`;
 }
